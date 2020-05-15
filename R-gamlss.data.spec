@@ -4,7 +4,7 @@
 #
 Name     : R-gamlss.data
 Version  : 5.1.4
-Release  : 2
+Release  : 3
 URL      : https://cran.r-project.org/src/contrib/gamlss.data_5.1-4.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/gamlss.data_5.1-4.tar.gz
 Summary  : GAMLSS Data
@@ -17,21 +17,22 @@ No detailed description available
 
 %prep
 %setup -q -c -n gamlss.data
+cd %{_builddir}/gamlss.data
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1584112194
+export SOURCE_DATE_EPOCH=1589534047
 
 %install
-export SOURCE_DATE_EPOCH=1584112194
+export SOURCE_DATE_EPOCH=1589534047
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
-export FCFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
-export FFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
+export FCFLAGS="$FFLAGS -O3 -flto -fno-semantic-interposition "
+export FFLAGS="$FFLAGS -O3 -flto -fno-semantic-interposition "
 export CXXFLAGS="$CXXFLAGS -O3 -flto -fno-semantic-interposition "
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
