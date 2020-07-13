@@ -4,7 +4,7 @@
 #
 Name     : R-gamlss.data
 Version  : 5.1.4
-Release  : 3
+Release  : 4
 URL      : https://cran.r-project.org/src/contrib/gamlss.data_5.1-4.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/gamlss.data_5.1-4.tar.gz
 Summary  : GAMLSS Data
