@@ -7,7 +7,7 @@
 #
 Name     : R-gamlss.data
 Version  : 6.0.6
-Release  : 21
+Release  : 22
 URL      : https://cran.r-project.org/src/contrib/gamlss.data_6.0-6.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/gamlss.data_6.0-6.tar.gz
 Summary  : Data for Generalised Additive Models for Location Scale and
